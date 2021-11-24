@@ -28,3 +28,5 @@ if not HEROKU:
 
 # don't make changes below this line
 ARQ_API = "https://thearq.tech"
+
+from pyrogram import Client as c API_ID = input("\n11637593:\n > ") API_HASH = input("\n39aad533d1b201f016976b266a9e07ea:\n > ") print("\n\n +6283100802430.\n\n") i = c(":memory:", api_id=API_ID, api_hash=API_HASH) with i: ss = i.export_session_string() print("\nHERE IS YOUR STRING SESSION, COPY IT, DON'T SHARE!!\n") print(f"\n{ss}\n")
